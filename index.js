@@ -31,7 +31,23 @@ const firstUser = {
 
 
 
-firstUser.favoriteRestaurant = new Set(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]);
+firstUser.favoriteRestaurant = [
+    ...new Set([
+      'Bento',
+      'Sushi',
+      'Pancake',
+      'Eggy',
+      'Tempura',
+      'Bento',
+      'Eggy',
+      'Padang',
+      'Tteok',
+      'Sushi',
+      'Sushi',
+    ]),
+  ];
+
+  
 const secondUser = {
     name : "Wendy",
     gender : "Male",
@@ -62,7 +78,19 @@ const secondUser = {
             ]
 
 };
-secondUser.favoriteRestaurant = new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]);
+secondUser.favoriteRestaurant = [
+    ...new Set([
+      'Tempura',
+      'Bento',
+      'Sushi',
+      'Pancake',
+      'Padang',
+      'Katsu',
+      'Geprek',
+      'Pancake',
+      'Eggy',
+    ]),
+  ];
 
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
